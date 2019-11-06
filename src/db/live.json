@@ -1,0 +1,194 @@
+[
+    {
+        "Santa Monica '72": {
+            "length": "74:21",
+            "trackData": [
+                {
+                    "trackNumber": 1,
+                    "title": "Intro",
+                    "length": "0:13"
+                },
+                {
+                    "trackNumber": 2,
+                    "title": "Hang On to Yourself",
+                    "length": "2:46"
+                },
+                {
+                    "trackNumber": 3,
+                    "title": "Ziggy Stardust",
+                    "length": "3:23"
+                },
+                {
+                    "trackNumber": 4,
+                    "title": "Changes",
+                    "length": "3:27"
+                },
+                {
+                    "trackNumber": 5,
+                    "title": "The Supermen",
+                    "length": "2:55"
+                },
+                {
+                    "trackNumber": 6,
+                    "title": "Life on Mars?",
+                    "length": "3:28"
+                },
+                {
+                    "trackNumber": 7,
+                    "title": "Five Years",
+                    "length": "4:32"
+                },
+                {
+                    "trackNumber": 8,
+                    "title": "Space Oddity",
+                    "length": "5:05"
+                },
+                {
+                    "trackNumber": 9,
+                    "title": "Andy Warhol",
+                    "length": "3:50"
+                },
+                {
+                    "trackNumber": 10,
+                    "title": "My Death",
+                    "length": "5:51"
+                },
+                {
+                    "trackNumber": 11,
+                    "title": "The Width of a Circle",
+                    "length": "10:44"
+                },
+                {
+                    "trackNumber": 12,
+                    "title": "Queen B***h",
+                    "length": "3:00"
+                },
+                {
+                    "trackNumber": 13,
+                    "title": "Moonage Daydream",
+                    "length": "4:53"
+                },
+                {
+                    "trackNumber": 14,
+                    "title": "John, I'm Only Dancing",
+                    "length": "3:16"
+                },
+                {
+                    "trackNumber": 15,
+                    "title": "Waiting for the Man",
+                    "length": "5:45"
+                },
+                {
+                    "trackNumber": 16,
+                    "title": "The Jean Genie",
+                    "length": "4:00"
+                },
+                {
+                    "trackNumber": 17,
+                    "title": "Suffragette City",
+                    "length": "4:12"
+                },
+                {
+                    "trackNumber": 13,
+                    "title": "Rock 'n' Roll Suicide",
+                    "length": "3:01"
+                }
+            ]       
+        },
+        "David Live": {
+            "length": "74:21",
+            "trackData": [
+                {
+                    "trackNumber": 1,
+                    "title": "Intro",
+                    "length": "0:13"
+                },
+                {
+                    "trackNumber": 2,
+                    "title": "Hang On to Yourself",
+                    "length": "2:46"
+                },
+                {
+                    "trackNumber": 3,
+                    "title": "Ziggy Stardust",
+                    "length": "3:23"
+                },
+                {
+                    "trackNumber": 4,
+                    "title": "Changes",
+                    "length": "3:27"
+                },
+                {
+                    "trackNumber": 5,
+                    "title": "The Supermen",
+                    "length": "2:55"
+                },
+                {
+                    "trackNumber": 6,
+                    "title": "Life on Mars?",
+                    "length": "3:28"
+                },
+                {
+                    "trackNumber": 7,
+                    "title": "Five Years",
+                    "length": "4:32"
+                },
+                {
+                    "trackNumber": 8,
+                    "title": "Space Oddity",
+                    "length": "5:05"
+                },
+                {
+                    "trackNumber": 9,
+                    "title": "Andy Warhol",
+                    "length": "3:50"
+                },
+                {
+                    "trackNumber": 10,
+                    "title": "My Death",
+                    "length": "5:51"
+                },
+                {
+                    "trackNumber": 11,
+                    "title": "The Width of a Circle",
+                    "length": "10:44"
+                },
+                {
+                    "trackNumber": 12,
+                    "title": "Queen B***h",
+                    "length": "3:00"
+                },
+                {
+                    "trackNumber": 13,
+                    "title": "Moonage Daydream",
+                    "length": "4:53"
+                },
+                {
+                    "trackNumber": 14,
+                    "title": "John, I'm Only Dancing",
+                    "length": "3:16"
+                },
+                {
+                    "trackNumber": 15,
+                    "title": "Waiting for the Man",
+                    "length": "5:45"
+                },
+                {
+                    "trackNumber": 16,
+                    "title": "The Jean Genie",
+                    "length": "4:00"
+                },
+                {
+                    "trackNumber": 17,
+                    "title": "Suffragette City",
+                    "length": "4:12"
+                },
+                {
+                    "trackNumber": 13,
+                    "title": "Rock 'n' Roll Suicide",
+                    "length": "3:01"
+                }
+            ]
+        }
+    }
+]
