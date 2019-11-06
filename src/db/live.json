@@ -2,6 +2,7 @@
     {
         "Santa Monica '72": {
             "length": "74:21",
+            "danceTracks": false,
             "trackData": [
                 {
                     "trackNumber": 1,
@@ -97,6 +98,7 @@
         },
         "David Live": {
             "length": "91:06",
+            "danceTracks": false,
             "trackData": [
                 {
                     "trackNumber": 1,
@@ -202,6 +204,7 @@
         },
         "Stage": {
             "length": "94:30",
+            "danceTracks": true,
             "trackData": [
                 {
                     "trackNumber": 1,
@@ -317,6 +320,7 @@
         },
         "Serious Moonlight (Live '83)": {
             "length": "92:31",
+            "danceTracks": true,
             "trackData": [
                 {
                     "trackNumber": 1,
@@ -427,6 +431,7 @@
         },
         "A Reality Tour": {
             "length": "154:00",
+            "danceTracks": true,
             "trackData": [
                 {
                     "trackNumber": 1,
