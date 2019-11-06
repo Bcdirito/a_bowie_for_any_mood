@@ -1,0 +1,15 @@
+.aboutUsPage {
+    padding: 4%;
+    margin: auto;
+    width: 75%;
+}
+
+.aboutUsPhoto {
+    width: 50%;
+}
+
+.aboutUsText {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}

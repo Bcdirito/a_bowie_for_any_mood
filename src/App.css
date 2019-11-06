@@ -1,10 +1,14 @@
 .App {
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 75vw;
-  height: 25vh;
+  height: 85vh;
   margin: auto;
-  /* font-family: 'Fjalla One', sans-serif; */
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 3.25%;
+  border: 2px;
+  border-style: groove;
+  border-color: black;
 }
 
 .App-logo {
