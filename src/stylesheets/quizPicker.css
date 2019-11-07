@@ -1,0 +1,25 @@
+.quizImage {
+    width: 30%;
+    height: 35vh;
+    margin-left: 2%;
+    -webkit-transition:  -webkit-transform .5s ease-out;
+    -moz-transition: -moz-transform .5s ease-out;
+    -o-transition: -o-transform .5s ease-out;
+    -ms-transition: -ms-transform .5s ease-out;
+    transition: transform .5s ease-out;
+}
+
+.quizImage:hover {
+    -webkit-transform:scale(2);
+   -moz-transform:scale(2);
+   -o-transform:scale(2);
+   transform:scale(1.5);
+}
+
+.quizPicker {
+    margin: auto;
+}
+
+.quizSelections {
+    margin-top: 8%;
+}
