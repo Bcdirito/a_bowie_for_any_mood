@@ -4,28 +4,16 @@
   width: 75vw;
   height: 85vh;
   margin: auto;
-  font-family: 'Fjalla One', sans-serif;
   margin-top: 3.25%;
   border: 2px;
   border-style: groove;
   border-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  left: 43%;
+  cursor: help;
 }

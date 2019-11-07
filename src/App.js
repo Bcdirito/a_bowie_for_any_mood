@@ -4,8 +4,17 @@ import './App.css';
 import Home from "./components/Home"
 import QuizContainer from "./components/QuizContainer"
 import About from "./components/About"
+import easterEgg from "./media/music/suffragette_city.mp3"
 
 function App() {
+  let music;
+
+  const playMusic = () => {
+    if (music !== undefined) music.pause()
+    music = new Audio(easterEgg)
+    music.play()
+  }
+
   return (
     <div className="App">
       <Switch>
@@ -20,6 +29,7 @@ function App() {
         )}/>
         <Route component={Home} />
       </Switch>
+      <footer onClick={() => playMusic()}>Wham Bam Thank You Ma'am</footer>
     </div>
   );
 }
