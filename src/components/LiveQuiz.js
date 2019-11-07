@@ -1,11 +1,11 @@
 import React from "react"
 import liveAlbums from "../db/live.js"
 
-const LiveQuiz = (props) => {
+const shuffler = require("../utils/shuffler")
+const lengthChecker = require("../utils/lengthChecker")
 
-    for (const key in liveAlbums) {
-        console.log(key)
-    }
+const LiveQuiz = (props) => {
+    console.log(shuffler, lengthChecker)
 
     return (
         <div>Live Albums Quiz</div>
