@@ -10,11 +10,8 @@ export default class Quiz extends Component {
     filterAlbum = (cb) => {
         let newAlbumArr = this.state.albums.filter(cb)
 
-        return newAlbumArr.length > 1  ? newAlbumArr : this.albumArrChecker(newAlbumArr, this.state.albums)
-    }
-
-    albumArrChecker = (newArr, origArr) => {
-        return newArr.length === 0 ? origArr : this.props.componentPick(newArr[0])
+        if (newAlbumArr.length > 0)  return newAlbumArr
+        else return this.state.albums
     }
 
     questionNumberChecker = () => {

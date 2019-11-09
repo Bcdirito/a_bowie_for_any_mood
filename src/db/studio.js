@@ -1,7 +1,7 @@
 const studioAlbums = [
     {
         "title": "Young Americans", 
-        "length": "40:13",
+        "length": 2413,
         "conceptRank": 1,
         "instrumentalTracks": false,
         "danceTracks": true,
@@ -51,12 +51,12 @@ const studioAlbums = [
     },
     {
         "title": "Let's Dance",
-        "length": "39:41",
+        "length": 2381,
         "conceptRank": 1,
         "instrumentalTracks": false,
         "danceTracks": true,
         "genre": "dance-pop",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Modern Love",
@@ -101,12 +101,12 @@ const studioAlbums = [
     },
     {
         "title": "Reality",
-        "length": "49:25",
+        "length": 2965,
         "conceptRank": 2,
         "instrumentalTracks": false,
         "danceTracks": false,
         "genre": "Alternative Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "New Killer Star",
@@ -166,12 +166,12 @@ const studioAlbums = [
     },
     {
         "title": "Hunky Dory",
-        "length": "41:50",
+        "length": 2510,
         "conceptRank": 2,
         "instrumentalTracks": false,
         "danceTracks": false,
         "genre": "Glam Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Changes",
@@ -231,12 +231,12 @@ const studioAlbums = [
     },
     {
         "title":"The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
-        "length": "38:29",
+        "length": 2309,
         "conceptRank": 3,
         "instrumentalTracks": false,
         "danceTracks": false,
         "genre": "Glam Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Five Years",
@@ -296,12 +296,12 @@ const studioAlbums = [
     },
     {
         "title": "Aladdin Sane",
-        "length": "40:47",
+        "length": 2447,
         "conceptRank": 3,
         "instrumentalTracks": false,
         "danceTracks": false,
         "genre": "Glam Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Watch That Man",
@@ -356,12 +356,12 @@ const studioAlbums = [
     },
     {
         "title": "'Heroes'",
-        "length": "40:19",
+        "length": 2419,
         "conceptRank": 4,
         "instrumentalTracks": true,
         "danceTracks": false,
         "genre": "Art Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Beauty and the Beast",
@@ -416,12 +416,12 @@ const studioAlbums = [
     },
     {
         "title": "Scary Monsters (and Super Creeps)",
-        "length": "45:37",
+        "length": 2735,
         "conceptRank": 4,
         "instrumentalTracks": false,
         "danceTracks": true,
         "genre": "Art Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "It's No Game (No. 1)",
@@ -476,12 +476,12 @@ const studioAlbums = [
     },
     {
         "title": "Low",
-        "length": "38:26",
+        "length": 2306,
         "conceptRank": 5,
         "instrumentalTracks": true,
         "danceTracks": true,
         "genre": "Art Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Speed of Life",
@@ -541,12 +541,12 @@ const studioAlbums = [
     },
     {
         "title": "Blackstar",
-        "length": "41:14",
+        "length": 2474,
         "conceptRank": 5,
         "instrumentalTracks": false,
         "danceTracks": false,
         "genre": "Art Rock",
-        "trackdata": [
+        "trackData": [
             {
                 "trackNumber": 1,
                 "title": "Blackstar",

@@ -1,0 +1,11 @@
+.albumChoice {
+    margin: auto;
+}
+
+.tracks {
+    overflow-y: auto;
+    height: 45vh;
+    margin: auto;
+    margin-left: 1.5%;
+    text-align: justify;
+}
