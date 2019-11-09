@@ -2,8 +2,8 @@ const liveQuestions = {
     1: {
         question: "Would You Rather?",
         answers: {
-            "Run a 100 Meter Dash?": (a, b) => {return a - b}, 
-            "Run a Marathon": (a, b) => {return b - a}
+            "Run a 100 Meter Dash?": (x) => {return x.length <= 5551}, 
+            "Run a Marathon": (x) => {return x.length >= 5551}
         }
     }, 
     2: {

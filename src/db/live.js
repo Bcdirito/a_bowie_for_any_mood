@@ -1,6 +1,7 @@
-const liveAlbums = {
-    "Santa Monica '72": {
-        "length": "74:21",
+const liveAlbums = [
+    {
+        "title": "Santa Monica '72",
+        "length": 4461,
         "danceTracks": false,
         "trackData": [
             {
@@ -95,8 +96,9 @@ const liveAlbums = {
             }
         ]       
     },
-    "David Live": {
-        "length": "91:06",
+    {
+        "title": "David Live",
+        "length": 5466,
         "danceTracks": false,
         "trackData": [
             {
@@ -201,8 +203,9 @@ const liveAlbums = {
             }
         ]
     },
-    "Stage": {
-        "length": "94:30",
+    {
+        "title": "Stage",
+        "length": 5670,
         "danceTracks": true,
         "trackData": [
             {
@@ -317,8 +320,9 @@ const liveAlbums = {
             }
         ]
     },
-    "Serious Moonlight (Live '83)": {
-        "length": "92:31",
+    {
+        "title": "Serious Moonlight (Live '83)",
+        "length": 5551,
         "danceTracks": true,
         "trackData": [
             {
@@ -428,8 +432,9 @@ const liveAlbums = {
             }
         ]
     },
-    "A Reality Tour": {
-        "length": "154:00",
+    {
+        "title": "A Reality Tour",
+        "length": 9240,
         "danceTracks": true,
         "trackData": [
             {
@@ -609,6 +614,6 @@ const liveAlbums = {
             }
         ]
     }
-}
+]
 
 export default liveAlbums

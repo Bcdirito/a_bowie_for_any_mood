@@ -1,5 +1,6 @@
-const studioAlbums = {
-    "Young Americans": {
+const studioAlbums = [
+    {
+        "title": "Young Americans", 
         "length": "40:13",
         "conceptRank": 1,
         "instrumentalTracks": false,
@@ -48,7 +49,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Let's Dance": {
+    {
+        "title": "Let's Dance",
         "length": "39:41",
         "conceptRank": 1,
         "instrumentalTracks": false,
@@ -97,7 +99,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Reality": {
+    {
+        "title": "Reality",
         "length": "49:25",
         "conceptRank": 2,
         "instrumentalTracks": false,
@@ -161,7 +164,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Hunky Dory": {
+    {
+        "title": "Hunky Dory",
         "length": "41:50",
         "conceptRank": 2,
         "instrumentalTracks": false,
@@ -225,7 +229,8 @@ const studioAlbums = {
             }
         ]
     },
-    "The Rise and Fall of Ziggy Stardust and the Spiders from Mars": {
+    {
+        "title":"The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
         "length": "38:29",
         "conceptRank": 3,
         "instrumentalTracks": false,
@@ -289,7 +294,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Aladdin Sane": {
+    {
+        "title": "Aladdin Sane",
         "length": "40:47",
         "conceptRank": 3,
         "instrumentalTracks": false,
@@ -348,7 +354,8 @@ const studioAlbums = {
             }
         ]
     },
-    "'Heroes'": {
+    {
+        "title": "'Heroes'",
         "length": "40:19",
         "conceptRank": 4,
         "instrumentalTracks": true,
@@ -407,7 +414,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Scary Monsters (and Super Creeps)": {
+    {
+        "title": "Scary Monsters (and Super Creeps)",
         "length": "45:37",
         "conceptRank": 4,
         "instrumentalTracks": false,
@@ -466,7 +474,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Low": {
+    {
+        "title": "Low",
         "length": "38:26",
         "conceptRank": 5,
         "instrumentalTracks": true,
@@ -530,7 +539,8 @@ const studioAlbums = {
             }
         ]
     },
-    "Blackstar": {
+    {
+        "title": "Blackstar",
         "length": "41:14",
         "conceptRank": 5,
         "instrumentalTracks": false,
@@ -574,6 +584,6 @@ const studioAlbums = {
             }
         ]
     }
-}
+]
 
 export default studioAlbums 
