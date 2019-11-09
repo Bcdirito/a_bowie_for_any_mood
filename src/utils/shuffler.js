@@ -1,5 +1,6 @@
-const shuffleResults = (obj) => {
-        console.log('made it to shuffler', obj)
+const shuffleResults = (arr) => {
+        console.log(arr)
+        debugger
 }
 
 export default shuffleResults

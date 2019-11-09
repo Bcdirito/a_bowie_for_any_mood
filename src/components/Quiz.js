@@ -15,7 +15,7 @@ export default class Quiz extends Component {
     }
 
     questionNumberChecker = () => {
-        return this.state.questionNumber < Object.keys(this.state.questions).length  ? this.state.questionNumber + 1 : this.props.componentPick(this.state.albums[0])
+        return this.state.questionNumber < Object.keys(this.state.questions).length  ? this.state.questionNumber + 1 : this.props.componentPick(this.state.albums[Math.floor(Math.random() * this.state.albums.length)])
     }
 
     selectAnswer = (cb) => {

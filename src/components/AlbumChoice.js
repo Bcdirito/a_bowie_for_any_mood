@@ -4,8 +4,7 @@ import "../stylesheets/albumChoice.css"
 const AlbumChoice = (props) => {
 
     const generateAlbumLength = (length) => {
-        console.log(length)
-        return `${Math.floor(length/60)}:${length % 60}`
+        return `${Math.floor(length/60)}:${length % 60 < 10 ? `0${length%60}` : length%60}`
     }
 
     const generateTrackItems = (tracks) => {
