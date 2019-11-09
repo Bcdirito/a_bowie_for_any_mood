@@ -8,8 +8,8 @@ const QuizPicker = (props) => {
         <div className="quizPicker">
             <h1>Which Photo Speaks to You?</h1>
             <div className="quizSelections">
-                <img className="quizImage" src={studioBowie} alt="loungeBowie" name="studio" onClick={(e)=>props.quizPick(e.target.name)} />
-                <img className="quizImage" src={liveBowie} alt="guitarBowie" name="live" onClick={(e) =>props.quizPick(e.target.name)} />
+                <img className="quizImage" src={studioBowie} alt="loungeBowie" name="studio" onClick={(e)=> props.componentPick(e.target.name)} />
+                <img className="quizImage" src={liveBowie} alt="guitarBowie" name="live" onClick={(e) => props.componentPick(e.target.name)} />
             </div>
         </div>
     )

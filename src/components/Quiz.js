@@ -7,8 +7,26 @@ export default class Quiz extends Component {
         questionNumber: 1
     }
 
+    filterAlbum = (cb) => {
+        let newAlbumArr = this.state.albums.filter(cb)
+
+        return newAlbumArr.length > 1  ? newAlbumArr : this.albumArrChecker(newAlbumArr, this.state.albums)
+    }
+
+    albumArrChecker = (newArr, origArr) => {
+        return newArr.length === 0 ? origArr : this.props.componentPick(newArr[0])
+    }
+
+    questionNumberChecker = () => {
+        return this.state.questionNumber < Object.keys(this.state.questions).length  ? this.state.questionNumber + 1 : this.props.componentPick(this.state.albums[0])
+    }
+
     selectAnswer = (cb) => {
-        console.log(this.props.albums.filter(cb))
+        this.setState({
+            ...this.state,
+            albums: this.filterAlbum(cb),
+            questionNumber: this.questionNumberChecker()
+        })
     }
 
     generateAnswers = (answers) => {
@@ -23,6 +41,7 @@ export default class Quiz extends Component {
     
     render() {
         const currentQuestion = this.state.questions[this.state.questionNumber]
+
         return (
             <div className="moodQuiz">
                 <h1>Albums Quiz</h1>
