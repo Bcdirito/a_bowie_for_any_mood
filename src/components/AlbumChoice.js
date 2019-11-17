@@ -3,6 +3,8 @@ import "../stylesheets/albumChoice.css"
 
 const AlbumChoice = (props) => {
 
+    
+
     const generateAlbumLength = (length) => {
         return `${Math.floor(length/60)}:${length % 60 < 10 ? `0${length%60}` : length%60}`
     }
@@ -17,6 +19,7 @@ const AlbumChoice = (props) => {
         <div className="albumChoice">
             <h1>Album Choice Component</h1>
             <h2>{props.data.title}</h2>
+            <img src={props.albumArt(`./${props.data.title.toLowerCase().split(" ").join("_")}.jpg`)} alt="albumArt" id="albumArt" />
             <p>Length - {generateAlbumLength(props.data.length)}</p>
             <p>{props.data.genre}</p>
             <div className="tracks">

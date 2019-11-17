@@ -7,6 +7,7 @@ import studioQuestions from "../db/studioQuestions"
 import liveAlbums from "../db/live"
 import liveQuestions from "../db/liveQuestions"
 
+
 export default class QuizContainer extends Component {
     state = {
         componentType: ""
@@ -15,7 +16,7 @@ export default class QuizContainer extends Component {
     renderComponent = () => {
         if (this.state.componentType === "studio") return <Quiz componentPick={(name => this.componentPick(name))} albums={studioAlbums} questions={studioQuestions} />
         else if (this.state.componentType === "live" ) return <Quiz componentPick={(name => this.componentPick(name))} albums={liveAlbums} questions={liveQuestions} />
-        else if (typeof this.state.componentType === "object" ) return <AlbumChoice data={this.state.componentType} />
+        else if (typeof this.state.componentType === "object" ) return <AlbumChoice albumArt={this.state.componentType.genre ? require.context("../media/images/studioAlbums", true) : require.context("../media/images/liveAlbums", true)} data={this.state.componentType} />
     }
 
     componentPick = (name) => {

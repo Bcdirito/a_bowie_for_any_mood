@@ -9,3 +9,8 @@
     margin-left: 1.5%;
     text-align: justify;
 }
+
+#albumArt {
+    float: right;
+    height: 45vh;
+}
