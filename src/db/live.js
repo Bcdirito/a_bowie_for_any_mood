@@ -1029,6 +1029,73 @@ const liveAlbums = [
                 "length": "8:39"
             }
         ]
+    },
+    {
+        "title": "VH1 Storytellers (Live)",
+        "length": 2677,
+        "danceTracks": false,
+        "trackData": [
+            {
+                "trackNumber": 1,
+                "title": "Life on Mars?",
+                "length": "4:22"
+            },
+            {
+                "trackNumber": 2,
+                "title": "Rebel Rebel (Truncated)",
+                "length": "3:15"
+            },
+            {
+                "trackNumber": 3,
+                "title": "Thursday's Child",
+                "length": "6:43"
+            },
+            {
+                "trackNumber": 4,
+                "title": "Can't Help Thinking About Me",
+                "length": "6:31"
+            },
+            {
+                "trackNumber": 5,
+                "title": "China Girl",
+                "length": "6:48"
+            },
+            {
+                "trackNumber": 6,
+                "title": "Seven",
+                "length": "5:02"
+            },
+            {
+                "trackNumber": 7,
+                "title": "Drive In Saturday",
+                "length": "5:22"
+            },
+            {
+                "trackNumber": 8,
+                "title": "Word On A Wing",
+                "length": "6:35"
+            },
+            {
+                "trackNumber": 9,
+                "title": "Survive",
+                "length": "4:01"
+            },
+            {
+                "trackNumber": 10,
+                "title": "I Can't Read",
+                "length": "5:23"
+            },
+            {
+                "trackNumber": 11,
+                "title": "Always Crashing In The Same Car",
+                "length": "3:11"
+            },
+            {
+                "trackNumber": 12,
+                "title": "If I'm Dreaming My Life",
+                "length": "6:51"
+            }
+        ]
     }
 ]
 

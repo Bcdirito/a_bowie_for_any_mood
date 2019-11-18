@@ -583,6 +583,86 @@ const studioAlbums = [
                 "length": "5:47"
             }
         ]
+    },
+    {
+        "title": "The Next Day",
+        "length": 3197,
+        "conceptRank": 3,
+        "instrumentalTracks": false,
+        "danceTracks": false,
+        "genre": "Art Rock",
+        "trackData": [
+            {
+                "trackNumber": 1,
+                "title": "The Next Day",
+                "length": "3:27"
+            },
+            {
+                "trackNumber": 2,
+                "title": "Dirty Boys",
+                "length": "2:58"
+            },
+            {
+                "trackNumber": 3,
+                "title": "The Stars (Are Out Tonight)",
+                "length": "3:57"
+            },
+            {
+                "trackNumber": 4,
+                "title": "Love Is Lost",
+                "length": "3:58"
+            },
+            {
+                "trackNumber": 5,
+                "title": "Where Are We Now?",
+                "length": "4:09"
+            },
+            {
+                "trackNumber": 6,
+                "title": "Valentine's Day",
+                "length": "3:02"
+            },
+            {
+                "trackNumber": 7,
+                "title": "If You Can See Me",
+                "length": "3:12"
+            },
+            {
+                "trackNumber": 8,
+                "title": "I'd Rather Be High",
+                "length": "3:45"
+            },
+            {
+                "trackNumber": 9,
+                "title": "Boss of Me",
+                "length": "4:10"
+            },
+            {
+                "trackNumber": 10,
+                "title": "Dancing Out In Space",
+                "length": "3:22"
+            },
+            {
+                "trackNumber": 11,
+                "title": "How Does The Grass Grow?",
+                "length": "4:34"
+            },
+            {
+                "trackNumber": 12,
+                "title": "(You Will) Set The World On Fire",
+                "length": "3:32"
+            },
+            {
+                "trackNumber": 13,
+                "title": "You Feel So Lonely You Could Die",
+                "length": "4:38"
+            },
+            {
+                "trackNumber": 14,
+                "title": "Heat",
+                "length": "4:25"
+            }
+        ]
     }
 ]
 
