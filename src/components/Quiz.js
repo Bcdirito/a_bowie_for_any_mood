@@ -30,7 +30,7 @@ export default class Quiz extends Component {
         let answersArr = []
 
         for (const key in answers){
-            answersArr.push(<div key={key} className="moodQuizAnswers" onClick={() => this.selectAnswer(answers[key])}>{key}</div>)
+            answersArr.push(<div key={key} className="divButton" onClick={() => this.selectAnswer(answers[key])}>{key}</div>)
         }
 
         return answersArr

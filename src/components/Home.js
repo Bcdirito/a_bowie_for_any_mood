@@ -19,9 +19,9 @@ const Home = (props) => {
             <div className="homeBowieImg">
                 <img src={homeBowie} alt="aladdinSane"/>
             </div>
-            <Link to="/quiz"><button>Take the Quiz</button></Link>
-            <Link to="/about"><button>About Us</button></Link>
-            <button onClick={() => playHope()}>I'm Having a Really Tough Day</button>
+            <Link to="/quiz"><div className="divButton">Take the Quiz</div></Link>
+            <Link to="/about"><div className="divButton">About Us</div></Link>
+            <div className="divButton" onClick={() => playHope()}>I'm Having a Really Tough Day</div>
         </div>
     )
 }

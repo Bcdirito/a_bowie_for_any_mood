@@ -29,7 +29,7 @@ export default class QuizContainer extends Component {
         return (
             <div>
               {this.state.componentType !== "" ? this.renderComponent() : <QuizPicker componentPick={(name) => this.componentPick(name)}/>}
-              {this.state.componentType !== "" ? <button className="restartButton" onClick={() => this.componentPick()}>Restart Quiz</button> : null}
+              {this.state.componentType !== "" ? <div className="divButton restartButton" onClick={() => this.componentPick()}>Restart Quiz</div> : null}
             </div>
         )
     }

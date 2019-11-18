@@ -4,7 +4,7 @@
     width: 75%;
     border: outset black 2px;
     overflow-y: scroll;
-    height: 60%;
+    height: 50vh;
     margin-top: 2%;
 }
 
@@ -16,4 +16,8 @@
     text-align: center;
     width: 75%;
     margin: auto;
+}
+
+.aboutUsButtons {
+    margin-top: 2%;
 }

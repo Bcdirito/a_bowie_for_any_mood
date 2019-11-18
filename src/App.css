@@ -16,4 +16,31 @@ footer {
   background-color: rgb(255, 255, 255);
   left: 43%;
   cursor: help;
+  border: solid black 2px;
+}
+
+.divButton {
+  background-color: black;
+  width: 15vw;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1%;
+  padding: .5%;
+  -webkit-transition:  -webkit-transform .33s ease-out;
+  -moz-transition: -moz-transform .33s ease-out;
+  -o-transition: -o-transform .33s ease-out;
+  -ms-transition: -ms-transform .33s ease-out;
+  transition: transform .33s ease-out;
+}
+
+.divButton:hover {
+  background-color: white;
+  color: black;
+  border: solid black 2px;
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  transform:scale(1.5);
 }
