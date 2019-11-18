@@ -215,7 +215,7 @@ const liveAlbums = [
             },
             {
                 "trackNumber": 2,
-                "title": "'Heroes'",
+                "title": '"Heroes"',
                 "length": "6:19"
             },
             {
@@ -265,23 +265,23 @@ const liveAlbums = [
             },
             {
                 "trackNumber": 12,
-                "title": "Knock on Wood",
-                "length": "3:08"
-            },
-            {
-                "trackNumber": 13,
                 "title": "Five Years",
                 "length": "3:57"
             },
             {
-                "trackNumber": 14,
+                "trackNumber": 13,
                 "title": "Soul Love",
                 "length": "2:56"
             },
             {
-                "trackNumber": 15,
+                "trackNumber": 14,
                 "title": "Star",
                 "length": "2:28"
+            },
+            {
+                "trackNumber": 15,
+                "title": "Hang On To Yourself",
+                "length": "3:22"
             },
             {
                 "trackNumber": 16,
@@ -611,6 +611,422 @@ const liveAlbums = [
                 "trackNumber": 35,
                 "title": "Days",
                 "length": "3:25"
+            }
+        ]
+    },
+    {
+        "title": "Glastonbury 2000",
+        "length": 6856,
+        "danceTracks": true,
+        "trackData": [
+            {
+                "trackNumber": 1,
+                "title": "Introduction (Greensleeves)",
+                "length": "1:49"
+            },
+            {
+                "trackNumber": 2,
+                "title": "Wild is the Wind",
+                "length": "6:55"
+            },
+            {
+                "trackNumber": 3,
+                "title": "Chine Girl",
+                "length": "4:24"
+            },
+            {
+                "trackNumber": 4,
+                "title": "Changes",
+                "length": "3:40"
+            },
+            {
+                "trackNumber": 5,
+                "title": "Stay",
+                "length": "7:13"
+            },
+            {
+                "trackNumber": 6,
+                "title": "Life on Mars?",
+                "length": "4:43"
+            },
+            {
+                "trackNumber": 7,
+                "title": "Absolute Beginners",
+                "length": "7:51"
+            },
+            {
+                "trackNumber": 8,
+                "title": "Ashes to Ashes",
+                "length": "5:21"
+            },
+            {
+                "trackNumber": 9,
+                "title": "Rebel Rebel",
+                "length": "4:13"
+            },
+            {
+                "trackNumber": 10,
+                "title": "Little Wonder",
+                "length": "3:57"
+            },
+            {
+                "trackNumber": 11,
+                "title": "Golden Years",
+                "length": "4:07"
+            },
+            {
+                "trackNumber": 12,
+                "title": "Fame",
+                "length": "4:25"
+            },
+            {
+                "trackNumber": 13,
+                "title": "All the Young Dudes",
+                "length": "3:44"
+            },
+            {
+                "trackNumber": 14,
+                "title": "The Man Who Sold The World",
+                "length": "3:52"
+            },
+            {
+                "trackNumber": 15,
+                "title": "Station to Station",
+                "length": "9:49"
+            },
+            {
+                "trackNumber": 16,
+                "title": "Starman",
+                "length": "4:51"
+            },
+            {
+                "trackNumber": 17,
+                "title": "Hallo Spaceboy",
+                "length": "5:28"
+            },
+            {
+                "trackNumber": 18,
+                "title": "Under Pressure",
+                "length": "5:23"
+            },
+            {
+                "trackNumber": 19,
+                "title": "Ziggy Stardust",
+                "length": "3:55"
+            },
+            {
+                "trackNumber": 20,
+                "title": '"Heroes"',
+                "length": "5:58"                
+            },
+            {
+                "trackNumber": 21,
+                "title": "Let's Dance",
+                "length": "7:07"
+            },
+            {
+                "trackNumber": 22,
+                "title": "I'm Afraid Of Americans",
+                "length": "5:44"
+            },
+            {
+                "trackNumber": 23,
+                "title": "I'm Afraid of Americans",
+                "length": "5:17"
+            },
+            {
+                "trackNumber": 24,
+                "title": "'Heroes",
+                "length": "6:58"
+            },
+            {
+                "trackNumber": 25,
+                "title": "Bring Me the Disco King",
+                "length": "7:56"
+            },
+            {
+                "trackNumber": 26,
+                "title": "Slip Away",
+                "length": "5:56"
+            },
+            {
+                "trackNumber": 27,
+                "title": "Heathen (The Rays)",
+                "length": "6:24"
+            },
+            {
+                "trackNumber": 28,
+                "title": "Five Years",
+                "length": "4:19"
+            },
+            {
+                "trackNumber": 29,
+                "title": "Hang On to Yourself",
+                "length": "2:50"
+            },
+            {
+                "trackNumber": 30,
+                "title": "Ziggy Stardust",
+                "length": "3:44"
+            },
+            {
+                "trackNumber": 31,
+                "title": "Fall Dog Bombs the Moon",
+                "length": "4:11"
+            },
+            {
+                "trackNumber": 32,
+                "title": "Breaking Glass",
+                "length": "2:27"
+            },
+            {
+                "trackNumber": 33,
+                "title": "China Girl",
+                "length": "4:18"
+            },
+            {
+                "trackNumber": 34,
+                "title": "5:15 The Angels Have Gone",
+                "length": "5:22"
+            },
+            {
+                "trackNumber": 35,
+                "title": "Days",
+                "length": "3:25"
+            }
+        ]
+    },
+    {
+        "title": "Welcome To The Blackout (Live London '78)",
+        "length": 6493,
+        "danceTracks": true,
+        "trackData": [
+            {
+                "trackNumber": 1,
+                "title": "Warszawa",
+                "length": "6:27"
+            },
+            {
+                "trackNumber": 2,
+                "title": '"Heroes"',
+                "length": "7:34"
+            },
+            {
+                "trackNumber": 3,
+                "title": "What in the World",
+                "length": "4:02"
+            },
+            {
+                "trackNumber": 4,
+                "title": "Be My Wife",
+                "length": "2:45"
+            },
+            {
+                "trackNumber": 5,
+                "title": "The Jean Genie",
+                "length": "6:34"
+            },
+            {
+                "trackNumber": 6,
+                "title": "Blackout",
+                "length": "3:42"
+            },
+            {
+                "trackNumber": 7,
+                "title": "Sense of Doubt",
+                "length": "3:25"
+            },
+            {
+                "trackNumber": 8,
+                "title": "Speed of Life",
+                "length": "2:37"
+            },
+            {
+                "trackNumber": 9,
+                "title": "Sound and Vision",
+                "length": "3:11"
+            },
+            {
+                "trackNumber": 10,
+                "title": "Breaking Glass",
+                "length": "3:31"
+            },
+            {
+                "trackNumber": 11,
+                "title": "Fame",
+                "length": "3:52"
+            },
+            {
+                "trackNumber": 12,
+                "title": "Beauty and the Beast",
+                "length": "4:59"
+            },
+            {
+                "trackNumber": 13,
+                "title": "Five Years",
+                "length": "6:09"
+            },
+            {
+                "trackNumber": 14,
+                "title": "Soul Love",
+                "length": "2:52"
+            },
+            {
+                "trackNumber": 15,
+                "title": "Star",
+                "length": "2:31"
+            },
+            {
+                "trackNumber": 16,
+                "title": "Hang On To Yourself",
+                "length": "2:39"
+            },
+            {
+                "trackNumber": 17,
+                "title": "Ziggy Stardust",
+                "length": "3:25"
+            },
+            {
+                "trackNumber": 18,
+                "title": "Suffragette City",
+                "length": "3:50"
+            },
+            {
+                "trackNumber": 19,
+                "title": "Art Decade",
+                "length": "3:09"
+            },
+            {
+                "trackNumber": 20,
+                "title": "Alabama Song",
+                "length": "3:58"
+            },
+            {
+                "trackNumber": 21,
+                "title": "Station to Station",
+                "length": "11:09"                
+            },
+            {
+                "trackNumber": 22,
+                "title": "TVC 15",
+                "length": "4:18"
+            },
+            {
+                "trackNumber": 23,
+                "title": "Stay",
+                "length": "6:58"
+            },
+            {
+                "trackNumber": 24,
+                "title": "Rebel Rebel",
+                "length": "3:51"
+            }
+        ]
+    },
+    {
+        "title": "Cracked Actor (Live, Los Angeles '74)",
+        "length": 5824,
+        "danceTracks": true,
+        "trackData": [
+            {
+                "trackNumber": 1,
+                "title": "Introduction",
+                "length": "1:49"
+            },
+            {
+                "trackNumber": 2,
+                "title": '1984',
+                "length": "2:55"
+            },
+            {
+                "trackNumber": 3,
+                "title": "Rebel Rebel",
+                "length": "2:31"
+            },
+            {
+                "trackNumber": 4,
+                "title": "Moonage Daydream",
+                "length": "5:18"
+            },
+            {
+                "trackNumber": 5,
+                "title": "Sweet Thing/Candidate/Sweet Thing (Reprise)",
+                "length": "7:40"
+            },
+            {
+                "trackNumber": 6,
+                "title": "Changes",
+                "length": "3:47"
+            },
+            {
+                "trackNumber": 7,
+                "title": "Suffragette City",
+                "length": "3:49"
+            },
+            {
+                "trackNumber": 8,
+                "title": "Aladdin Sane",
+                "length": "5:00"
+            },
+            {
+                "trackNumber": 9,
+                "title": "All the Young Dudes",
+                "length": "4:10"
+            },
+            {
+                "trackNumber": 10,
+                "title": "Cracked Actor",
+                "length": "3:19"
+            },
+            {
+                "trackNumber": 11,
+                "title": "Rock 'n' Roll with Me",
+                "length": "4:57"
+            },
+            {
+                "trackNumber": 12,
+                "title": "Knock on Wood",
+                "length": "3:16"
+            },
+            {
+                "trackNumber": 13,
+                "title": "It's Gonna Be Me",
+                "length": "7:11"
+            },
+            {
+                "trackNumber": 14,
+                "title": "Space Oddity",
+                "length": "5:15"
+            },
+            {
+                "trackNumber": 15,
+                "title": "Diamond Dogs",
+                "length": "6:58"
+            },
+            {
+                "trackNumber": 16,
+                "title": "Big Brother",
+                "length": "4:04"
+            },
+            {
+                "trackNumber": 17,
+                "title": "Time",
+                "length": "5:47"
+            },
+            {
+                "trackNumber": 18,
+                "title": "The Jean Genie",
+                "length": "5:40"
+            },
+            {
+                "trackNumber": 19,
+                "title": "Rock 'n' Roll Suicide",
+                "length": "5:09"
+            },
+            {
+                "trackNumber": 20,
+                "title": "John, I'm Only Dancing (Again)",
+                "length": "8:39"
             }
         ]
     }

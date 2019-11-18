@@ -1,7 +1,6 @@
 const studioAlbums = [
     {
         "title": "Young Americans",
-        "albumArt": "../media/images/studioAlbums/young_americans.jpg",
         "length": 2413,
         "conceptRank": 1,
         "instrumentalTracks": false,
@@ -52,7 +51,6 @@ const studioAlbums = [
     },
     {
         "title": "Let's Dance",
-        "albumArt": "../media/images/studio/let's_dance.jpg",
         "length": 2381,
         "conceptRank": 1,
         "instrumentalTracks": false,
