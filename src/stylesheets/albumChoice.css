@@ -4,13 +4,26 @@
 
 .tracks {
     overflow-y: auto;
-    height: 45vh;
+    height: 40vh;
     margin: auto;
     margin-left: 1.5%;
     text-align: justify;
+    width: 50%;
+    border: outset white 2px;
+    padding-left: 1%;
+    color: white;
 }
 
 #albumArt {
     float: right;
-    height: 45vh;
+    height: 40vh;
+    border: outset white 2px;
+}
+
+#albumData {
+    width: 75%;
+    margin: auto;
+    border: outset black 2px;
+    padding: 1%;
+    background-color: black;
 }

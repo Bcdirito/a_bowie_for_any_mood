@@ -2,6 +2,10 @@
     padding: 4%;
     margin: auto;
     width: 75%;
+    border: outset black 2px;
+    overflow-y: scroll;
+    height: 60%;
+    margin-top: 2%;
 }
 
 .aboutUsPhoto {
