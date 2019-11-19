@@ -15,6 +15,10 @@ function App() {
     music.play()
   }
 
+  fetch("/login")
+  .then(res => res.json())
+  .then(json => console.log(json))
+  .catch(error => console.log(error))
 
   return (
     <div className="App">

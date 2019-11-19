@@ -3,7 +3,8 @@
 }
 
 .homeBowieImg img{
-    width: 43%;
+    width: 42%;
+    border: outset black 2px;
 }
 
 a {
