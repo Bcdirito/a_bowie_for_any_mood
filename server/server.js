@@ -39,7 +39,7 @@ app.get("/login", (req, res) => {
     
     res.cookie(stateKey, state)
 
-    const scope = "streaming user-read-email user-read-private"
+    const scope = "user-read-private user-read-email"
 
     res.redirect('https://accounts.spotify.com/authorize?' + 
         querystring.stringify({
@@ -73,22 +73,21 @@ app.get("/callback", (req, res) => {
                 grant_type: "authorization_code"
             },
             headers: {
-                "Authorization": 'Basic' + (Buffer.from(client_id + ':' + client_secret).toString("base64"))
+                "Authorization": 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString("base64"))
             },
             json: true
         }
         
-        request.post(authOptions, (error, response, body) => {         
+        request.post(authOptions, (error, response, body) => {  
             if (body && response.code === 200) {
                 const { refresh_token } = body
                 res.redirect(`${req.headers.referer}?` + querystring.stringify({
                     refresh_token
                 }))
             } else {
-                console.log(req.headers)
-                res.redirect(`${req.headers.referer}` + querystring.stringify({
-                    error: 'invalid_token'
-                }))
+                res.send({
+                    "error": error
+                })
             }
         })
     }
@@ -99,7 +98,7 @@ app.get("/refresh_token", (req, res) => {
     const authOptions = {
         url: "https://accounts.spotify.com/api/token",
         headers: {
-            "Authorization": "Basic" + (Buffer.from(client_id + ":" + client_secret).toString("base64"))
+            "Authorization": "Basic " + (Buffer.from(client_id + ":" + client_secret).toString("base64"))
         },
         form: {
             grant_type: "refresh_token",
